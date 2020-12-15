@@ -20,8 +20,10 @@ Note: You **MUST** use the magenta from the above repo and not the original one.
 ### Creating audio with reverb using SuperCollider
 * Open the batchNRT.scd file in SuperCollider
 * Change the input and output paths as needed
-* Language > Evaluate File
+* Execute the first code block, which contains the reverb synthdef (you can substitute other synthdefs in here, too)
+* Execute the second code block, which contains the actual batch processing script
 * Move the clean_wavs.sh script into the output folder where all the .wav files are and run it.
+* Credit where credit is due: This script is an update and repurposing of [Dan Stowell's batchNRT quark](https://github.com/supercollider-quarks/batchNRT)
 
 ### Converting wav files into tfrecords
 * Construct the metadata (just the pitch is sufficient) and put it in a json as done in [NSynth](https://magenta.tensorflow.org/datasets/nsynth#example-features)

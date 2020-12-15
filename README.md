@@ -9,10 +9,10 @@
 ## Instructions
 ### Setup
 * Install SuperCollider, python and ffmpeg
-* Clone this repository
+* Clone this repository: `git clone https://github.com/ghanashyamvtatti/reverbsynth.git`
 * CD into this repository
 * Run `pip install -r requirements.txt`
-* Clone [this](https://github.com/ghanashyamvtatti/magenta) repository
+* Clone [this](https://github.com/ghanashyamvtatti/magenta) repository: `git clone https://github.com/ghanashyamvtatti/magenta.git`
 * CD into it and run `pip install -e .`
 
 Note: You **MUST** use the magenta from the above repo and not the original one.

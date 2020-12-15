@@ -6,6 +6,11 @@
 * rtmidi
 * [SuperCollider](https://supercollider.github.io/download)
 
+## Dataset
+Reverbsynth was trained on a small subset of NSynth (the bass acoustic) instrument with a modified reverb version of those files added to it using SuperCollider.
+
+You can find this dataset (along with the metadata example.json file) [here](https://drive.google.com/file/d/1Fl-DmZjuf2a8WoRvfT0uiAyg6LM_p934/view?usp=sharing).
+
 ## Instructions
 ### Setup
 * Install SuperCollider, python and ffmpeg
